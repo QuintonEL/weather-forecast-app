@@ -1,8 +1,12 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 export default class Cards extends Component{
+  
   render () {
+
     return (
+
+      //redundant
       <div className="forecast">
         <div className="col">
           <div className="small-date">{(new Date(this.props.forecast.list[1].dt_txt)).toString().substring(0,15)}</div>
