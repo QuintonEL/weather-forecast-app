@@ -6,7 +6,7 @@ The app is deployed on Netlify and can be found here https://ql-weather-app.netl
 
 ## Final Product
 
-!["Home Page"](#https://github.com/QuintonEL/weather-forecast-app/blob/main/docs/home-page.png?raw=true)
+!["Home Page"](https://github.com/QuintonEL/weather-forecast-app/blob/main/docs/home-page.png?raw=true)
 
 
 ## Getting Started
