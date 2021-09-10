@@ -1,3 +1,35 @@
+# Weather App
+
+A simple weather app buit using ReactJS that shows a 5 day forcast along with some details about the temperatures throughout the day. You can enter the name of a city to get started with the forecast. The data is retrieved using a free API called OpenWeatherMap which provides 5 days of weather along with weather updates every 3 hours throughout the day.
+
+## Final Product
+
+!["screenshot description"](#)
+
+!["screenshot description"](#)
+
+## Dependencies
+
+- Node.js
+- Express
+- EJS
+- bcrypt
+- body-parser
+- cookie-session
+
+## Getting Started
+
+- Install all dependencies (using the `npm install` command).
+- Run the development web server using the `node express_server.js` command.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
