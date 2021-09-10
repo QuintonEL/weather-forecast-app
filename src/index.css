@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-  background-color: aqua;
+  background-color: skyblue;
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
@@ -48,8 +48,9 @@ main {
 
 .location-box .location {
   color: #FFF;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: 500;
+  padding-bottom: 20px;
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
