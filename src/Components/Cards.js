@@ -6,6 +6,7 @@ export default class Cards extends Component{
 
     return (
 
+      //generates each weather card in the top row
       //redundant
       <div className="forecast">
         <div className="col">

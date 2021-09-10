@@ -29,8 +29,7 @@ export default class DataTracker extends Component {
     for (let i = 0; i < oneDay.length; i++) {
       roundedOneDay[i] = oneDay[i].map(item => Math.round(item));
     }
-    console.log('oneDay', roundedOneDay);
-  
+
 
     // find the max temp for each day
     function showMax(days) {
@@ -43,7 +42,6 @@ export default class DataTracker extends Component {
       }
       return maxTemp;
     }
-    console.log('max', showMax(oneDay));
 
 
     //find the min temp for each day
@@ -57,7 +55,6 @@ export default class DataTracker extends Component {
       }
       return minTemp;
     }
-    console.log('min', showMin(oneDay));
 
 
     //find the mean temp for each day
@@ -71,7 +68,6 @@ export default class DataTracker extends Component {
       }
       return meanTemp;
     }
-    console.log('mean', showMean(oneDay));
 
 
     //find the mode temp for each day
@@ -96,11 +92,11 @@ export default class DataTracker extends Component {
       }
       return modeResults;
     }
-    console.log('mode', showMode(oneDay));
     
 
     return (
 
+      //generates each weather card in the bottom row
       //redundant
       <div className="forecast">
         <div className="col">

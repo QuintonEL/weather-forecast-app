@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Cards from './Components/Cards';
 import DataTracker from "./DataTracker";
 
-//for production this API key would need to be hidden
+//for production this API key would be hidden
 const api = {
   key: "8e4863d596f6b5dbac14fc594c9b1ead",
   base: "https://api.openweathermap.org/data/2.5/"
@@ -32,7 +32,7 @@ function App() {
           <input
             type="text"
             className="search-bar"
-            placeHolder="Enter a city!"
+            placeholder="Enter a city!"
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
